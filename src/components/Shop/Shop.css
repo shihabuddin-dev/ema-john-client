@@ -8,11 +8,13 @@
     margin: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 45px;
+    gap: 20px;
 }
-.proceed-link{
+
+.proceed-link {
     text-decoration: none;
 }
+
 .btn-proceed {
     background: #FF9900;
     width: 90%;
@@ -24,4 +26,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.pagination {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.pagination button {
+    margin-right: 10px;
+}
+.pagination .selected {
+    background-color: orange;
 }
