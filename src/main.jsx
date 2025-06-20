@@ -22,7 +22,8 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Shop></Shop>,
-        loader: ()=>fetch('http://localhost:5000/productsCount')
+        loader: cartProductsLoader
+        // loader: ()=>fetch('https://ema-john-server-olive-phi.vercel.app/productsCount')
       },
       {
         path: 'orders',
